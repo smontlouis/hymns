@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "hymns",
+  "scripts": {
+    "scripts": "yarn workspace @hymns/scripts",
+    "mobile": "yarn workspace @hymns/mobile"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn mobile lint"
+    }
+  },
+  "workspaces": {
+    "packages": [
+      "packages/scripts",
+      "packages/mobile"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^4.3.0"
+  }
+}

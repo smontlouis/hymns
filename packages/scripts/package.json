@@ -1,0 +1,17 @@
+{
+  "name": "@hymns/scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "“Stéphane <s.montlouis.calixte@gmail.com> (https://github.com/bulby97)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/html-minifier": "^4.0.0",
+    "@types/node": "^14.14.21",
+    "cheerio": "^1.0.0-rc.5",
+    "html-minifier": "^4.0.0"
+  }
+}
